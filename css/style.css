@@ -1,0 +1,127 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('../fonts/inter-v12-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/inter-v12-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* inter-700 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+        url('../fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/inter-v12-latin-700.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* Global */
+
+:root {
+    --dark: #000000;
+    --grey: #303030;
+    --light: #FFFFFF;
+}
+
+/* Typographie */
+
+body {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: var(--light);
+    background-color: var(--light);
+    background-image: linear-gradient(rgba(48, 48, 48, 0.5), rgba(48, 48, 48, 0.5)), url('../img/day.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20rem;
+    line-height: 1;
+    letter-spacing: -0.5rem;
+}
+
+.abbreviation {
+    font-weight: 200;
+    font-size: 4rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+h2,
+.info {
+    font-weight: 700;
+    font-size: 5.6rem;
+    line-height: 1.2;
+}
+
+h3,
+.localisation {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.1;
+    letter-spacing: 0.48rem;
+    text-transform: uppercase;
+}
+
+h4,
+.greeting {
+    font-size: 2rem;
+    line-height: 1.4;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+h5,
+.author {
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+h6,
+.heading,
+.more {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+/* Composants */
+
+/* Layout */
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
+}
+
+header {
+    margin-top: 8rem;
+    margin-bottom: 20rem;
+}
+
+footer {
+    margin-top: 8rem;
+}
+
+/* Main */
+
+/* Footer */
