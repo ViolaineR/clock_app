@@ -28,9 +28,9 @@
         <p class="greeting">good morning, it's currently</p>
         <h1 class="time">11:37 <span class="abbreviation">CEST</span></h1>
         <p class="localisation">in london, uk</p>
-        <button class="more">more <img src="./img/arrow.svg" alt="" class="more-icon"></button>
+        <button class="more" aria-label="Open info" aria-expanded="false" aria-controls="info">more <img src="./img/arrow.svg" alt="" class="more-icon"></button>
     </main>
-    <footer class="container">
+    <footer class="container" id="info" role="list" hidden>
         <ul>
             <li class="timezone">
                 <p class="heading">Current timezone</p>
@@ -50,5 +50,7 @@
             </li>
         </ul>
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>
