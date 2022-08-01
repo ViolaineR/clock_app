@@ -26,31 +26,34 @@
     <main class="container">
         <img src="./img/sun.svg" alt="" class="home-icon">
         <p class="greeting">good morning, it's currently</p>
-        <h1 class="time">11:37 <span class="abbreviation">CEST</span></h1>
-        <p class="localisation">in london, uk</p>
+        <h1 class="time">11:37</h1>
+        <p class="abbreviation">CEST</p>
+        <p class="city">in london,</p>
+        <p class="country-id">uk</p>
         <button class="more" aria-label="Open info" aria-expanded="false" aria-controls="info">more <img src="./img/arrow.svg" alt="" class="more-icon"></button>
     </main>
     <footer class="container" id="info" role="list" hidden>
         <ul>
-            <li class="timezone">
+            <li>
                 <p class="heading">Current timezone</p>
-                <p class="info">Europe/London</p>
+                <p class="info timezone">Europe/London</p>
             </li>
-            <li class="day-of-time">
+            <li>
                 <p class="heading">Day of the year</p>
-                <p class="info">295</p>
+                <p class="info day-of-year">295</p>
             </li>
-            <li class="day-of-week">
+            <li>
                 <p class="heading">Day of the week</p>
-                <p class="info">5</p>
+                <p class="info day-of-week">5</p>
             </li>
-            <li class="week-number">
+            <li>
                 <p class="heading">Week number</p>
-                <p class="info">42</p>
+                <p class="info week-number">42</p>
             </li>
         </ul>
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="./js/api.js"></script>
 </body>
 </html>

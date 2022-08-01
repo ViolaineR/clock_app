@@ -7,7 +7,7 @@ toggleInfo.addEventListener('click', function () {
     info.hidden = !info.hidden;
 
     if (!info.hidden) {
-        toggleMenu.setAttribute('aria-label', 'Close info');
+        toggleInfo.setAttribute('aria-label', 'Close info');
 
     } else {
         toggleInfo.setAttribute('aria-label', 'Open info');
